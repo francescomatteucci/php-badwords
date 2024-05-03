@@ -5,7 +5,7 @@ $paragraph = $_GET["paragraph"];
 
 $word = $_GET["word"];
 
-$new_paragraph = str_replace( 'stupidino', '***', $paragraph);
+$new_paragraph = str_replace( $word , '***', $paragraph);
 ?>
 
 <h1><?php echo $word ?></h1>
